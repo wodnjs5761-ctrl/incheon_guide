@@ -277,7 +277,7 @@
       <h3 style="color: #ed1c24; font-size: 15px; margin-bottom: 6px;">
         <span data-i18n="alert_t1t2_title">⚠️ 터미널을 다시 한번 확인해 주세요!</span>
       </h3>
-      <p style="font-size: 13.5px; color: #444; line-height: 1.5;" data-i18n="alert_t1t2_desc">
+      <p style="font-size: 13.5px; color: #444; line-height: 1.5; word-break: keep-all;" data-i18n="alert_t1t2_desc">
         T1과 T2는 차로 20분 거리입니다. 예약을 잘못하신 경우 신속히 지점 메신저로 연락 바랍니다.
       </p>
     </div>
@@ -1653,13 +1653,13 @@
       renderCargoList(cat);
     }
 
-    // 패키지 화면(올인원 패키지)에서 한국어로 변경 시 홈 화면으로 강제 이동
+// 패키지 화면(올인원 패키지)에서 한국어로 변경 시 홈 화면으로 강제 이동
     const activeView = document.querySelector('.view.active');
     if (langCode === 'ko' && activeView && activeView.id === 'view-package') {
       navigate('home');
     }
-  }
-// 🌟 [추가] 외국어일 때 T1 셀프픽업 화면 강제 노출
+
+    // 🌟 [추가] 외국어일 때 T1 셀프픽업 화면 강제 노출 (함수 안쪽으로 들어왔습니다!)
     const contT1Self = document.getElementById('content-t1-sub-self');
     if (contT1Self) {
       if (langCode === 'ko') {
@@ -1668,6 +1668,7 @@
         contT1Self.style.display = 'block'; // 외국어면 셀프픽업을 무조건 켬
       }
     }
+  } // 👈 changeLanguage 함수는 여기서 끝나야 정상입니다.
 
   function switchReturnTab(tabName) {
     const btnT1 = document.getElementById('btn-tab-t1');
@@ -1725,6 +1726,8 @@ function switchKbMainTab(tabName) {
 
     if (tabName === 'smart') {
       btnSmart.className = 'tab-btn active-blue'; 
+
+
       btnSelf.className = 'tab-btn';
       contSmart.style.display = 'block'; 
       contSelf.style.display = 'none';
