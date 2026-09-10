@@ -1566,9 +1566,19 @@
     });
   }
 
-  function openTerminalLink() {
-    const isKorean = document.body.classList.contains('lang-ko');
-    const url = isKorean ? 'https://www.airport.kr/ap_ko/872/subview.do' : 'https://www.airport.kr/ap_en/1399/subview.do';
+function openTerminalLink() {
+    const lang = document.documentElement.lang || 'ko';
+    
+    // 언어별 인천공항 URL 매핑
+    const urls = {
+      'ko': 'https://www.airport.kr/ap_ko/872/subview.do',
+      'en': 'https://www.airport.kr/ap_en/1399/subview.do',
+      'zh': 'https://www.airport.kr/sites/ap_ch/index.do',
+      'ja': 'https://www.airport.kr/sites/ap_ja/index.do'
+    };
+    
+    // 설정된 언어의 URL을 가져오고, 혹시라도 매칭이 안 되면 영어로 기본 연결
+    const url = urls[lang] || urls['en'];
     window.open(url, '_blank');
   }
 
