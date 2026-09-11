@@ -19,8 +19,7 @@ const guideTranslations = {
 
   // ================= 홈 화면 (Home) =================
   "alert_t1t2_title": { en: "⚠️ Please verify your terminal!" },
-  "alert_t1t2_desc": { en: "T1 and T2 are 20 mins apart. If you reserved the wrong terminal, please contact us immediately." },
-  "alert_zh_title": { zh: "⚠️ 國際駕照 (IDP) 租車重要公告" },
+  "alert_t1t2_desc": { en: "Terminal 1 and Terminal 2 are 20 mins apart by car. If you reserved the wrong terminal, please contact us immediately.", zh: "第1航廈與第2航廈車程約 20 分鐘。若您預約錯航廈，請立即聯繫我們。", ja: "第1ターミナルと第2ターミナルは車で20分の距離です。ターミナルを間違えて予約された場合は、すぐにご連絡ください。" },  "alert_zh_title": { zh: "⚠️ 國際駕照 (IDP) 租車重要公告" },
   "alert_zh_desc": { zh: "由於中國大陸非道路交通公約締約國，<strong>持「中國大陸發行之國際駕照」將無法於韓國租車。</strong><br>(台灣、香港發行之國際駕照可正常使用)" },
   "alert_ja_title": { ja: "⚠️ 運転方向・カーナビに関する重要案内" },
   "alert_ja_desc": { ja: "・韓国は<strong>右側通行</strong>です。ウインカーとワイパーの位置が日本と逆になります。<br>・車載カーナビは<strong>韓国語・英語のみ</strong>対応しています。(日本語不可)" },
@@ -183,7 +182,7 @@ const guideTranslations = {
   "key_t1_self_desc": { en: "Terminal 1 (T1) Short-term Parking (Designated Area)", zh: "第1航廈 (T1) 短期停車場 (您被指定的區域)", ja: "第1ターミナル (T1) 短期駐車場 (案内されたエリア)" },
   "key_how_self_t1": { en: "🚶 Unmanned Box Pick-up Process", zh: "🚶 無人鑰匙櫃取車流程", ja: "🚶 無人保管箱でのピックアップ" },
   "key_self_guide_desc": { en: "Please proceed to the parking area provided via messenger. You will find the car key either inside the vehicle or in the designated unmanned box.", zh: "請前往透過通訊軟體通知您的停車區域。您可以在車內或指定的無人鑰匙櫃中找到車鑰匙。", ja: "メッセンジャーで案内された駐車エリアに移動し、車内または指定の無人保管箱から鍵を受け取ってください。" },
-  "key_req_1": { en: "Pre-payment completed", zh: "完成預先付款", ja: "事前決済の完了" },
+  "key_req_1": { en: "Pre-payment", zh: "預先付款", ja: "事前決済" },
   "key_req_2": { en: "Driver's License verification", zh: "駕照驗證", ja: "免許証の確認" },
   "key_req_3": { en: "Sign Contract & Consent Form", zh: "合約及資料收集同意書簽名", ja: "契約書およびカード収集同意書の署名" },
   "key_img_title": { en: "📸 License Verification", zh: "📸 駕照驗證", ja: "📸 免許証の確認" },
@@ -226,18 +225,13 @@ const guideTranslations = {
   "key_issue_desc": { en: "If the keybox won't open or you can't find the car, please contact us immediately via messenger. Our staff will assist you in real-time.", zh: "若鑰匙櫃無法開啟或找不到車，請立即透過通訊軟體聯繫我們。工作人員將即時為您協助。", ja: "キーボックスが開かない、または車両が見つからない場合は、すぐにメッセンジャーでご連絡ください。スタッフがリアルタイムでサポートいたします。" },
 
   "ret_contactless": { en: "🌙 Contactless Return", zh: "🌙 零接觸還車", ja: "🌙 非対面返却" },
-  "ret_cont_desc": {en: "Process for returning vehicles <strong>outside operating hours</strong> or returning a car <strong>rented from another branch</strong>.", zh: "適用於<strong>非營業時間</strong>還車，或是將<strong>其他分店租借的車輛</strong>甲租乙還至仁川機場。", ja: "<strong>営業時間外</strong>の早朝返却、または<strong>他店舗で借りた車</strong>を仁川空港に乗り捨て返却する際の手続きです。"},
+  "ret_cont_desc": {en: "Process for returning vehicles <strong>outside operating hours</strong> or returning a car <strong>rented from another branch</strong>.", zh: "適用於<strong>非營業時間</strong>還車，或是將<strong>其他分店租借的車輛</strong>甲租乙還至仁川機場。", ja: "<strong>営業時間外</strong>の早朝返却、または<strong>他店舗で借りた車</strong>を仁川空港に乗り捨て返却する際の手続きです。" },
   "ret_cont_1": { en: "🚙 Rented from Incheon Airport Branch", zh: "🚙 從仁川機場分店租借的車輛", ja: "🚙 仁川空港営業所でレンタルした車両" },
   "ret_cont_t1_title": { en: "[T1 Return]", zh: "[T1 還車]", ja: "[T1 返却]" },
-"ret_cont_t1_desc": {en: "Park at <strong>H35</strong> and drop the car key into the return keybox at <strong>pillar H35-10</strong>.", zh: "請停放在 <strong>H35 區</strong>，並將車鑰匙投入 <strong>H35 10 號柱子</strong>上的還車鑰匙櫃內。", ja: "<strong>H35エリア</strong>に駐車後、<strong>H35 10番柱</strong>にある返却用キーボックスに鍵を入れてください。"},
-  "ret_cont_t2_title": { en: "[T2 Return]", zh: "[T2 還車]", ja: "[T2 返却]" },
-  "ret_cont_t2_desc": {en: "Park at <strong>B1 119</strong> and drop the car key into the return keybox <strong>on the wall in the passage towards the airport</strong>.", 
-    zh: "請停放在 <strong>地下 1 樓 (B1) 119 區</strong>，並將車鑰匙投入<strong>往機場方向通道牆面上</strong>的還車鑰匙櫃內。", 
-    ja: "<strong>地下1階(B1) 119エリア</strong>に駐車後、空港方面通路の<strong>壁面にある返却用キーボックス</strong>に鍵を入れてください。"},
+  "ret_cont_t1_desc": { en: "Park at <strong>Area H35</strong> and drop the car key into the white return keybox at <strong>pillar H35-10</strong>.", zh: "請停放在 <strong>H35 區</strong>，並將車鑰匙投入 <strong>H35-10 號柱子</strong>上的白色還車鑰匙櫃內。", ja: "<strong>H35エリア</strong>に駐車後、<strong>H35-10番柱</strong>にある白い返却用キーボックスに鍵を入れてください。" },  "ret_cont_t2_title": { en: "[T2 Return]", zh: "[T2 還車]", ja: "[T2 返却]" },
+  "ret_cont_t2_desc": { en: "Park at <strong>B1 119</strong> and drop the car key into the return keybox <strong>on the wall in the passage towards the airport</strong>.", zh: "請停放在 <strong>地下 1 樓 (B1) 119 區</strong>，並將車鑰匙投入<strong>往機場方向通道牆面上</strong>的還車鑰匙櫃內。", ja: "<strong>地下1階(B1) 119エリア</strong>に駐車後、空港方面通路の<strong>壁面にある返却用キーボックス</strong>に鍵を入れてください。" },
   "ret_oneway": { en: "🚗 One-way return (Rented from another branch)", zh: "🚗 甲租乙還 (從其他分店租借的車輛)", ja: "🚗 乗り捨て返却 (他店舗でレンタルした車両)" },
-"ret_oneway_warn": {en: "※ Mandatory: Fold side mirrors, take a photo of the parked car, and send it via Messenger!<br>(One-way vehicles cannot use the Keybox)<br>※ If the designated area is full, park in the nearest empty spot and share the location via Messenger.", 
-    zh: "※ 必辦事項：還車後請務必收起後照鏡，拍下停車照片並透過通訊軟體傳送給我們！<br>(他店租借車輛無法使用鑰匙櫃)<br>※ 若指定區域客滿，請停放在附近的空位，並透過通訊軟體告知我們位置。", 
-    ja: "※ 必須: サイドミラーを閉じた後、駐車した車の写真を撮ってメッセンジャーで送信してください！<br>(他店レンタルの場合はキーボックス利用不可)<br>※ 指定エリアが満車の場合は、近くの空きスペースに駐車し、メッセンジャーで位置を共有してください。"},
+  "ret_oneway_warn": {en: "※ Mandatory: Fold side mirrors, take a photo of the parked car, and send it via Messenger!<br>(One-way vehicles cannot use the Keybox)<br>※ If the designated area is full, park in the nearest empty spot and share the location via Messenger.", zh: "※ 必辦事項：還車後請務必收起後照鏡，拍下停車照片並透過通訊軟體傳送給我們！<br>(他店租借車輛無法使用鑰匙櫃)<br>※ 若指定區域客滿，請停放在附近的空位，並透過通訊軟體告知我們位置。", ja: "※ 必須: サイドミラーを閉じた後、駐車した車の写真を撮ってメッセンジャーで送信してください！<br>(他店レンタルの場合はキーボックス利用不可)<br>※ 指定エリアが満車の場合は、近くの空きスペースに駐車し、メッセンジャーで位置を共有してください。" },
   "ret_ow_t1_desc": { en: "Park at <strong>H25</strong> (or nearby if full) ❯ <strong>Leave the key INSIDE the car</strong>.", zh: "停放在 <strong>H25 區</strong> (若客滿請停附近) ❯ <strong>將車鑰匙留在車內(如置杯架)</strong>。", ja: "<strong>H25エリア</strong> 駐車 (満車時は付近に駐車) ❯ <strong>車の鍵は車内(カップホルダー等)に置く</strong>。" },
   "ret_ow_t2_desc": { en: "Park at <strong>B1 M floor 123</strong> (or nearby if full) ❯ <strong>Leave the key INSIDE the car</strong>.", zh: "停放在 <strong>地下 M 樓 123 區</strong> (若客滿請停附近) ❯ <strong>將車鑰匙留在車內(如置杯架)</strong>。", ja: "<strong>地下M階 123エリア</strong> 駐車 (満車時は付近に駐車) ❯ <strong>車の鍵は車内(カップホルダー等)に置く</strong>。" },
 
@@ -271,8 +265,7 @@ const guideTranslations = {
   "ins_cdw_title": { en: "🚘 Collision Damage Waiver", zh: "🚘 車輛損害免責保險 (CDW)", ja: "🚘 車両損害免責 (CDW)" },
   "ins_cdw_desc": { en: "Your out-of-pocket cost depends on your CDW type. However, property damage exceeding 20M KRW and downtime charges are billed to the customer.", zh: "顧客自負額依您選擇的方案而定。但若 <strong>對物賠償超過 2,000 萬韓元</strong>，或車損超過殘值 50% 的 <strong>營業損失費(最多30天)</strong> 將由顧客承擔。", ja: "加入されたプランによりお客様負担金が異なります。ただし、<strong>対物2千万ウォン超過分</strong> および 車両価値の50%以上の破損時の <strong>休車補償料(最大30日)</strong> は実費請求されます。" },
   "ins_exc_title": { en: "CDW Exceptions (Not Covered)", zh: "保險 (CDW) 不理賠項目", ja: "保険 (CDW) 適用外の項目" },
-  "ins_exc_desc": { en: "Damage to interior parts (Navigation screen, seats, lost smart keys), <strong>Tire tears & Wheel damage</strong> (Simple flat tires are covered via emergency call), and <strong>Misfueling</strong> are NOT covered by CDW and are 100% the customer's responsibility.", zh: "車內零件及配件損壞 (導航、座椅破損、鑰匙遺失)、<strong>輪胎破裂及輪框受損</strong> (單純爆胎可通報保險救援)、<strong>加錯油</strong>，皆不在保險理賠範圍內，顧客須負擔 100% 費用。", ja: "車内部品およびアクセサリーの破損(ナビ、シート破損、スマートキー紛失)、<strong>タイヤの破れおよびホイールの損傷</strong>(単純なパンクは保険報告で対応可能)、<strong>燃料の入れ間違い</strong> は保険適用外であり、お客様の 100% 負担となります。" },
-
+  "ins_exc_desc": {en: "<strong>Tire tears</strong>, <strong>interior contamination/damage (seats, display, etc.)</strong>, and <strong>misfueling</strong> are NOT covered by CDW and are 100% the customer's responsibility.", zh: "<strong>輪胎破裂</strong>、<strong>車內汙染與破損 (座椅、顯示螢幕等)</strong> 以及 <strong>加錯油</strong>，皆不在保險理賠範圍內，顧客須負擔 100% 費用。", ja: "<strong>タイヤの破れ</strong>、<strong>車内の汚れ・破損 (シート、ディスプレイ等)</strong>、および <strong>燃料の入れ間違い</strong> は保険適用外となり、お客様の 100% 負担となります。" },
   // ================= 한국 주행 팁 (Driving in Korea) =================
   "drv_page_title": { en: "🔰 Driving in Korea", zh: "🔰 韓國道路駕駛指南", ja: "🔰 韓国道路運転ガイド" },
   "drv_app_title": { en: "📱 Best Navigation Apps", zh: "📱 必備導航 APP", ja: "📱 必須ナビアプリ" },
@@ -283,8 +276,7 @@ const guideTranslations = {
   "drv_etc_warn_desc": { en: "When leaving the airport, you <strong>MUST pass through a toll bridge</strong>. If you have a Hi-Pass card, drive straight through the Blue Line without stopping.", zh: "離開機場時 <strong>必須經過收費大橋</strong>。若您有 Hi-Pass 卡，請走藍線車道，不需停車即可通過。", ja: "空港を出る際は <strong>必ず有料橋(料金所)</strong> を通過します。ハイパスカードがある場合は、青い線(レーン)をノンストップで通過してください。" },
   "drv_ins_title": { en: "💳 How to insert Hi-Pass Card", zh: "💳 Hi-Pass 卡插入方法", ja: "💳 ハイパスカードの挿入方法" },
   "drv_ins_dir": { en: "Insert with the IC chip facing the glass.", zh: "請將 IC 晶片(金屬部分)朝向玻璃插入。", ja: "ICチップ(金属部分)が窓ガラスに向くように挿入してください。" },
-  "drv_ins_desc": { en: "You will hear a voice prompt if inserted correctly. It will not work at toll gates if reversed.", zh: "插入正確時機器會發出語音提示。若插錯方向將無法感應，並會向您收取過路費。", ja: "正常に挿入されると端末から音声案内が出ます。間違って挿すと処理されず、通行料が請求されます。" },
-  "drv_chg_title": { en: "🔋 How to recharge (Prepaid)", zh: "🔋 卡片儲值方法 (預付卡)", ja: "🔋 カードのチャージ方法 (プリペイド)" },
+  "drv_ins_desc": { en: "When the Hi-Pass card is correctly recognized, the indicator light will change from <strong>red to green (or blue)</strong>. It will not work at toll gates if reversed.", zh: "Hi-Pass 卡成功感應時，指示燈會從<strong>紅燈變為綠燈 (或藍燈)</strong>。若插錯方向將無法感應。", ja: "ハイパスカードが正常に認識されると、表示灯が<strong>赤色から緑色 (または青色)</strong>に変わります。間違って挿すと処理されません。" },  "drv_chg_title": { en: "🔋 How to recharge (Prepaid)", zh: "🔋 卡片儲值方法 (預付卡)", ja: "🔋 カードのチャージ方法 (プリペイド)" },
   "drv_chg_desc": { en: "Recharge with <strong>CASH</strong> at any convenience store (7-Eleven, CU, GS25) or highway rest area.", zh: "可在全韓國的便利商店 (7-Eleven, CU, GS25) 或高速公路休息站以 <strong>現金 (Cash)</strong> 儲值。", ja: "全国のコンビニ (7-Eleven, CU, GS25) や高速道路のSA/PAで <strong>現金(Cash)</strong> にてチャージ可能です。" },
   "drv_lane_desc": { en: "- <strong>Blue Lines (Hi-Pass):</strong> Pass through without stopping (under 30km/h) only if you have a Hi-Pass card/device.<br>- If no device, use Cash/Card lanes.", zh: "- <strong>藍色車道(Hi-Pass)：</strong> 僅限裝有 Hi-Pass 卡/設備的車輛不停車通過 (時速30km以下)。<br>- 若無卡片，請走一般「現金/卡片」車道。", ja: "- <strong>青色レーン(ハイパス)：</strong> ハイパスカード/端末がある車両のみノンストップ通過 (時速30km以下)。<br>- ない場合は「現金/カード」の一般レーンへ。" },
   "drv_pay_title": { en: "💵 Parking & Toll Payment Tips", zh: "💵 停車場/收費站 付款提示", ja: "💵 駐車場/料金所の決済ヒント" },
@@ -322,11 +314,7 @@ const guideTranslations = {
   "car_tab_van": { en: "Van", zh: "多人座客車", ja: "ミニバン" },
   "car_btn_view": { en: "View ❯", zh: "空間 ❯", ja: "確認 ❯" },
   "car_luggage_sizes": { en: "Luggage Sizes (Varies by brand)", zh: "行李箱尺寸 (依品牌有所不同)", ja: "スーツケースサイズ (ブランドにより異なります)" },
-  "car_luggage_dim": { 
-    en: "• 20\" : W 34cm, H 51cm, D 22cm<br>• 26\" : W 45cm, H 69cm, D 28cm<br>• 28\" : W 47cm, H 74cm, D 31cm", 
-    zh: "• 20\" : 寬 34cm 高 51cm 深 22cm<br>• 26\" : 寬 45cm 高 69cm 深 28cm<br>• 28\" : 寬 47cm 高 74cm 深 31cm", 
-    ja: "• 20\" : 横 34cm 縦 51cm 奥行 22cm<br>• 26\" : 横 45cm 縦 69cm 奥行 28cm<br>• 28\" : 横 47cm 縦 74cm 奥行 31cm" 
-  },
+  "car_luggage_dim": { en: "• 20\" : W 34cm, H 51cm, D 22cm<br>• 26\" : W 45cm, H 69cm, D 28cm<br>• 28\" : W 47cm, H 74cm, D 31cm", zh: "• 20\" : 寬 34cm 高 51cm 深 22cm<br>• 26\" : 寬 45cm 高 69cm 深 28cm<br>• 28\" : 寬 47cm 高 74cm 深 31cm", ja: "• 20\" : 横 34cm 縦 51cm 奥行 22cm<br>• 26\" : 横 45cm 縦 69cm 奥行 28cm<br>• 28\" : 横 47cm 縦 74cm 奥行 31cm" },
   "car_or": { en: "or", zh: "或", ja: "または" },
 
   // ================= 차량 데이터 (Car Data) 번역 모음 =================
