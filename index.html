@@ -9,6 +9,15 @@
   })(window,document,'script','dataLayer','GTM-TPDKDH89');</script>
   <!-- End Google Tag Manager -->
 
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VWH760E90E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VWH760E90E');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
@@ -259,7 +268,7 @@
         <i class="fab fa-whatsapp"></i>
       </a>
       <div class="lang-select-container">
-        <select id="langDropdown" class="lang-select" onchange="changeLanguage(this.value)" aria-label="Toggle Language">
+        <select id="langDropdown" class="lang-select" onchange="changeLanguage(this.value); trackEvent('language_change', { language: this.value });" aria-label="Toggle Language">
           <option value="ko">KOR</option>
           <option value="en">ENG</option>
           <option value="zh">繁體中文</option>
@@ -1604,7 +1613,35 @@ function openTerminalLink() {
     updateBottomNav(viewId);
     window.scrollTo({ top: 0, behavior: 'smooth' });
     if (pushHistory) { window.history.pushState({ view: viewId }, '', '#' + viewId); }
+    trackEvent('menu_view', { menu: viewId });
   }
+
+  /* 📊 통계 기록 (GA4) */
+  function trackEvent(name, params) {
+    try {
+      if (typeof gtag === 'function') {
+        gtag('event', name, Object.assign({ lang: document.documentElement.lang || 'ko' }, params || {}));
+      }
+    } catch (e) {}
+  }
+
+  // 카톡·왓츠앱·전화·지도 버튼 클릭 기록
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest ? e.target.closest('a[href]') : null;
+    if (!link) return;
+    const href = link.getAttribute('href') || '';
+    const viewEl = link.closest('.view');
+    const screen = viewEl ? viewEl.id.replace('view-', '') : 'header';
+    let method = '';
+    if (href.indexOf('pf.kakao.com') > -1) method = 'kakao';
+    else if (href.indexOf('wa.me') > -1) method = 'whatsapp';
+    else if (href.indexOf('tel:') === 0) method = 'phone';
+    if (method) {
+      trackEvent('contact_click', { method: method, screen: screen, link_url: href });
+    } else if (href.indexOf('map.naver.com') > -1 || href.indexOf('map.kakao.com') > -1) {
+      trackEvent('map_click', { map: href.indexOf('naver') > -1 ? 'naver' : 'kakao', screen: screen });
+    }
+  }, true);
 
   window.addEventListener('popstate', function(event) {
     if (event.state && event.state.view) {
