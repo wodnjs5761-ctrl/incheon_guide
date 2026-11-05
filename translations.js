@@ -240,7 +240,7 @@ const guideTranslations = {
   "ins_page_title": { en: "🚨 Accident & Insurance", zh: "🚨 事故處理與保險", ja: "🚨 事故対応と保険" },
   "ins_cc_title": { en: "📞 Customer Center (24/7)", zh: "📞 客服中心 (24小時)", ja: "📞 カスタマーセンター (24時間)" },
   "ins_cc_eng": { en: "+82-1588-1230 (Press 8)", zh: "+82-1588-1230 (按 8)", ja: "+82-1588-1230 (ガイダンス 8番)" },
-  "ins_cc_eng_desc": { en: "English Customer Service", zh: "英語專線服務", ja: "英語対応サービス" },
+  "ins_cc_eng_desc": { en: "English Customer Service (09:00 ~ 18:00 KST)", zh: "英語專線服務 (韓國時間 09:00 ~ 18:00)", ja: "英語対応サービス (韓国時間 09:00 ~ 18:00)" },
   "ins_cc_1": { en: "+82-1588-1230 (Press 1)", zh: "+82-1588-1230 (按 1)", ja: "+82-1588-1230 (ガイダンス 1番)" },
   "ins_cc_1_desc": { en: "Accident reporting & Roadside assistance (flat tire, battery, towing)", zh: "事故通報及道路救援 (爆胎, 電瓶沒電, 拖吊)", ja: "事故受付およびロードサービス (パンク, バッテリー上がり, 牽引)" },
   "ins_acc_lbl": { en: "Accident", zh: "發生事故", ja: "事故発生" },
