@@ -189,6 +189,10 @@
     .mini-btn.kakao { background: #FEE500; color: #000; }
     .mini-btn.whatsapp { background: #25D366; color: #fff; }
 
+    /* 줄바꿈: 한국어·영어는 단어 단위로, 일본어·중국어는 글자 단위로 줄바꿈 */
+    body.lang-ko, body.lang-en { word-break: keep-all; overflow-wrap: break-word; }
+    body.lang-ja, body.lang-zh { word-break: normal; overflow-wrap: anywhere; }
+    body.lang-ja [style*="keep-all"], body.lang-zh [style*="keep-all"] { word-break: normal !important; }
     body.lang-zh { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "PingFang TC", "Microsoft YaHei", "Microsoft JhengHei", sans-serif; }
     body.lang-ja { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif; }
     
