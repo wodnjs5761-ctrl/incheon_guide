@@ -18,7 +18,7 @@ const guideTranslations = {
   "nav_ins": { en: "SOS", zh: "保險·SOS", ja: "保険·SOS" },
 
   // ================= 홈 화면 (Home) =================
-  "alert_t1t2_title": { en: "⚠️ Please verify your terminal!" },
+  "alert_t1t2_title": { en: "⚠️ Please verify your terminal!", zh: "⚠️ 請再次確認您的航廈！", ja: "⚠️ ターミナルをもう一度ご確認ください！" },
   "alert_t1t2_desc": { en: "Terminal 1 and Terminal 2 are 20 mins apart by car. If you reserved the wrong terminal, please contact us immediately.", zh: "第1航廈與第2航廈車程約 20 分鐘。若您預約錯航廈，請立即聯繫我們。", ja: "第1ターミナルと第2ターミナルは車で20分の距離です。ターミナルを間違えて予約された場合は、すぐにご連絡ください。" },  "alert_zh_title": { zh: "⚠️ 國際駕照 (IDP) 租車重要公告" },
   "alert_zh_desc": { zh: "由於中國大陸非道路交通公約締約國，<strong>持「中國大陸發行之國際駕照」將無法於韓國租車。</strong><br>(台灣、香港發行之國際駕照可正常使用)" },
   "alert_ja_title": { ja: "⚠️ 運転方向・カーナビに関する重要案内" },
@@ -60,6 +60,8 @@ const guideTranslations = {
   "menu_web_title": { en: "Official English Website", zh: "官方英文網站", ja: "公式英語ウェブサイト" },
   "menu_web_desc": { en: "Visit Lotte Rent-a-car Eng site", zh: "專為外國顧客提供的官方網站", ja: "外国人のお客様向けの公式英語サイト" },
   
+  "inq_call": { en: "📞 Call: +82-32-743-8000", zh: "📞 電話諮詢: +82-32-743-8000", ja: "📞 お電話: +82-32-743-8000" },
+  "inq_call_ext": { en: "T1 Branch: Ext. 3 / T2 Branch: Ext. 4", zh: "T1 營業所: 分機 3 / T2 營業所: 分機 4", ja: "T1 営業所: 内線 3 / T2 営業所: 内線 4" },
   "inq_desc": { en: "Need help? Contact our branch anytime via KakaoTalk or WhatsApp.", zh: "需要協助嗎？請隨時透過 WhatsApp 或 KakaoTalk 聯繫我們。", ja: "サポートが必要ですか？ KakaoTalk または WhatsApp でいつでも店舗にお問い合わせください。" },
   "inq_op_title": { en: "⏰ Operating Hours (KST)", zh: "⏰ 營業時間 (韓國時間)", ja: "⏰ 営業時間 (韓国時間)" },
   "inq_op_wd": { en: "- Weekdays: 06:00 ~ 20:00<br><span style=\"color: #ed1c24;\">- Weekends/Holidays: 08:00 ~ 20:00</span>", zh: "- 平日: 06:00 ~ 20:00<br><span style=\"color: #ed1c24;\">- 週末及假日: 08:00 ~ 20:00</span>", ja: "- 平日: 06:00 ~ 20:00<br><span style=\"color: #ed1c24;\">- 週末・祝日: 08:00 ~ 20:00</span>" },
@@ -121,11 +123,11 @@ const guideTranslations = {
   "faq_q3": { en: "What if my flight is delayed or immigration takes a long time?", zh: "如果航班延誤或入境審查花費太長時間怎麼辦？", ja: "飛行機が遅延したり、入国審査に時間がかかる場合はどうなりますか？" },
   "faq_a3": { en: "Do not worry! We are monitoring your flight status using the flight number you provided. <strong>However, if you didn't provide a flight number or expect a delay of more than 1 hour</strong>, please contact our branch via WhatsApp/KakaoTalk.", zh: "不用擔心！我們會透過您的航班號碼即時確認延誤狀況。<strong>但若您預約時未填寫航班號碼，或預計延誤超過 1 小時</strong>，請務必透過通訊軟體(KakaoTalk/WhatsApp)提前聯繫我們。", ja: "ご安心ください！店舗でお客様の便名から遅延状況をリアルタイムで確認しております。<strong>ただし、予約時に便名を記載していない場合、または1時間以上の遅れが予想される場合</strong>は、必ずメッセンジャー(KakaoTalk/WhatsApp)で事前にご連絡ください。" },
   "faq_q4": { en: "Which card can I use? Do you accept Debit cards or Apple Pay?", zh: "該用什麼卡付款？可以使用簽帳金融卡或 Apple Pay 嗎？", ja: "支払いはどのカードですべきですか？デビットカードやApple Payも可能ですか？" },
-  "faq_a4": { en: "We strongly recommend using a <strong>Visa or Mastercard Credit Card</strong> under the main driver's name. Overseas Debit cards, Apple Pay, or Travel wallets are frequently declined on-site due to terminal communication errors.", zh: "我們強烈建議使用駕駛人本人名義的 <strong>Visa 或 Mastercard 信用卡(Credit Card)</strong>。海外發行的簽帳金融卡(Debit)、Apple Pay 等，常因刷卡機通訊問題導致交易失敗，請特別留意。", ja: "お支払いは必ず運転者本人名義の <strong>Visa または Mastercard のクレジットカード</strong> のご利用を推奨します。海外発行のデビットカードやApple Payなどは、端末の通信状況により決済が拒否されることが多いためご注意ください。" },
+  "faq_a4": { en: "We strongly recommend using a <strong>Visa or Mastercard Credit Card</strong> under the main driver's name. Overseas Debit cards, Apple Pay, or Travel wallets are frequently declined on-site due to terminal communication errors.", zh: "我們強烈建議使用駕駛人本人名義的 <strong>Visa 或 Mastercard 信用卡(Credit Card)</strong>。海外發行的簽帳金融卡(Debit)、Apple Pay 等，常因刷卡機通訊問題導致交易失敗，請特別留意。", ja: "お支払いは運転者本人名義の <strong>Visa または Mastercard のクレジットカード</strong> のご利用を推奨します。海外発行のデビットカードやApple Payなどは、端末の通信状況により決済が拒否されることが多いためご注意ください。" },
   "faq_q5": { en: "How do I pay for highway tolls and traffic fines?", zh: "Hi-Pass (高速公路過路費) 和罰款要如何支付？", ja: "ハイパス(高速道路通行料)や過怠金はどのように支払いますか？" },
   "faq_a5": { en: "Pass through the Blue Line (Hi-Pass lane) at toll gates without stopping. Tolls and fines are <strong>paid on-site upon return</strong>, or <strong>automatically charged to your registered credit card</strong> later.", zh: "裝有 Hi-Pass 設備的車輛，可直接不停車通過收費站的藍色車道。過路費與交通罰款(超速/違停等)將於 <strong>還車時現場結算</strong>，或事後 <strong>由您租車時登記的信用卡自動扣款</strong>。", ja: "ハイパス端末が装着された車両は、料金所の青い線(ハイパスレーン)をノンストップで通過できます。通行料や罰金(速度違反・駐車違反等)は <strong>車両返却時に現場で決済</strong> するか、後日 <strong>登録されたクレジットカードへ自動請求</strong> されます。" },
   "faq_q6": { en: "What is the fuel policy upon return?", zh: "還車時需要加油嗎？", ja: "返却時の給油はどうすればいいですか？" },
-  "faq_a6": { en: "Please return the vehicle with the <strong>same amount of fuel</strong> as when rented. If returned with less fuel, an additional charge will be calculated based on our standard rates.", zh: "請加滿與 <strong>租車時相同油量</strong> 的燃油後再還車。若未加滿即還車，我們將依公司規定的油價現場向您收取差額。", ja: "車両をレンタルした時と <strong>同じ量の燃料</strong> を入れて返却してください。燃料が不足した状態で返却した場合、当社の規定油価に従い現場で追加料金が決済されます。" },
+  "faq_a6": { en: "Please return the vehicle with the <strong>same amount of fuel</strong> as when rented. If returned with less fuel, an additional charge will be calculated based on our standard rates.", zh: "請加油至 <strong>與租車時相同的油量</strong> 後再還車。若油量不足即還車，我們將依公司規定的油價現場向您收取差額。", ja: "車両をレンタルした時と <strong>同じ量の燃料</strong> を入れて返却してください。燃料が不足した状態で返却した場合、当社の規定油価に従い現場で追加料金が決済されます。" },
 
   // ================= 지점 오시는 길 (Directions) =================
   "dir_page_title": { en: "✈️ Directions to Office", zh: "✈️ 分店路線指引", ja: "✈️ 店舗へのアクセス" },
@@ -297,7 +299,7 @@ const guideTranslations = {
   "gas_green": { en: "Green<br>Diesel", zh: "綠色<br>柴油", ja: "緑色<br>軽油" },
   "gas_blue": { en: "Blue<br>Diesel", zh: "藍色<br>柴油", ja: "青色<br>軽油" },
   "gas_req_title": { en: "💡 Fueling Guidelines", zh: "💡 還車前務必加油", ja: "💡 返却前の給油必須" },
-  "gas_req_desc": { en: "Please <strong>return the vehicle with a full tank of fuel</strong> to avoid additional charges.", zh: "為避免產生額外費用，請 <strong>加滿油 (與租車時相同) 後再還車。</strong>", ja: "追加料金が発生しないよう、<strong>返却前に燃料を満タン(貸出時と同じ)にしてご返却ください。</strong>" },
+  "gas_req_desc": { en: "To avoid additional charges, please return the vehicle with the <strong>same amount of fuel</strong> as when rented.", zh: "為避免產生額外費用，請加油至 <strong>與租車時相同的油量</strong> 後再還車。", ja: "追加料金が発生しないよう、<strong>貸出時と同じ量の燃料</strong>を入れてご返却ください。" },
   "gas_t1_title": { en: "✈️ T1 Nearby Gas Station", zh: "✈️ T1 附近加油站", ja: "✈️ T1 近くのガソリンスタンド" },
   "gas_t1_name": { en: "GS Caltex Incheon Airport T1 Gas Station", zh: "GS Caltex 仁川機場 T1 加油站", ja: "GSカルテックス 仁川空港 T1 スタンド" },
   "gas_t2_title": { en: "✈️ T2 Nearby Gas Station", zh: "✈️ T2 附近加油站", ja: "✈️ T2 近くのガソリンスタンド" },
@@ -323,11 +325,11 @@ const guideTranslations = {
     "casper": { name: { en: "Casper", zh: "卡斯珀(Casper)", ja: "キャスパー" } },
     "k3": { name: { en: "K3", zh: "K3", ja: "K3" } },
     "avante": { name: { en: "Avante", zh: "阿班特(Avante)", ja: "アバンテ" } },
-    "prius": { name: { en: "Prius", zh: "Prius", ja: "Prius" } },
+    "prius": { name: { en: "Prius", zh: "普銳斯(Prius)", ja: "プリウス" } },
     "k5": { name: { en: "K5", zh: "K5", ja: "K5" } },
     "sonata": { name: { en: "Sonata", zh: "索納塔(Sonata)", ja: "ソナタ" } },
     "k8": { name: { en: "K8", zh: "K8", ja: "K8" } },
-    "camry": { name: { en: "Camry", zh: "Camry", ja: "Camry" } },
+    "camry": { name: { en: "Camry", zh: "凱美瑞(Camry)", ja: "カムリ" } },
     "grandeur": { name: { en: "Grandeur", zh: "雅尊(Grandeur)", ja: "グレンジャー" } },
     "g80": { name: { en: "G80", zh: "G80", ja: "G80" } },
     "g90": { name: { en: "G90", zh: "G90", ja: "G90" } },
@@ -341,7 +343,7 @@ const guideTranslations = {
     },
     "torres": { name: { en: "Torres", zh: "Torres", ja: "トーレス" } },
     "koleos": { name: { en: "Koleos", zh: "科雷傲(Koleos)", ja: "コレオス" } },
-    "rav4": { name: { en: "Rav4", zh: "Rav4", ja: "Rav4" } },
+    "rav4": { name: { en: "RAV4", zh: "RAV4", ja: "RAV4" } },
     "santafe": { 
       name: { en: "Santa Fe", zh: "勝達(Santa Fe)", ja: "サンタフェ" },
       warning: { en: "※ Seat 4 is small, making it difficult for adults to ride.", zh: "※ 4號座位較小，成人乘坐較困難。", ja: "※ 4番座席は小さく、大人の乗車は困難です。" }

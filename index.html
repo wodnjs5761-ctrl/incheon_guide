@@ -273,7 +273,7 @@
   <main id="view-home" class="view active">
     
     <!-- 각 언어별 경고문 박스 (JavaScript에서 언어에 따라 표시/숨김) -->
-    <div class="alert-box" style="margin: 20px 20px 0;" data-lang-only="ko,en">
+    <div class="alert-box" style="margin: 20px 20px 0;" data-lang-only="ko,en,zh,ja">
       <h3 style="color: #ed1c24; font-size: 15px; margin-bottom: 6px;">
         <span data-i18n="alert_t1t2_title">⚠️ 터미널을 다시 한번 확인해 주세요!</span>
       </h3>
@@ -463,6 +463,11 @@
           <a href="https://wa.me/821067557918" target="_blank" class="messenger-btn btn-whatsapp" aria-label="WhatsApp">
             <i class="fab fa-whatsapp"></i> <span data-i18n="btn_whatsapp">왓츠앱 상담</span>
           </a>
+        </div>
+
+        <div style="margin-top: 12px; padding: 14px 16px; background: #f9fafb; border: 1px solid #f0f0f0; border-radius: 16px; text-align: center;">
+          <a href="tel:+82-32-743-8000" style="display: inline-block; color: #1d4ed8; text-decoration: none; font-weight: 800; font-size: 15px;" data-i18n="inq_call">📞 전화 문의: 032-743-8000</a>
+          <div style="margin-top: 6px; font-size: 13px; color: #555; word-break: keep-all;" data-i18n="inq_call_ext">T1 지점: 내선 3번 / T2 지점: 내선 4번</div>
         </div>
       </div>
     </div>
@@ -670,7 +675,7 @@
             <span data-i18n="faq_q4">결제는 어떤 카드로 해야 하나요? 체크카드나 애플페이도 되나요?</span>
           </div>
           <div class="info-box" style="background:#f9fafb;" data-i18n="faq_a4">
-            결제는 반드시 운전자 본인 명의의 <strong>비자(Visa) 또는 마스터(Mastercard) 신용카드(Credit Card)</strong> 사용을 권장합니다. 해외 발급 체크카드, 애플페이 등은 결제가 거절되는 경우가 허다하므로 유의해 주시기 바랍니다.
+            결제는 운전자 본인 명의의 <strong>비자(Visa) 또는 마스터(Mastercard) 신용카드(Credit Card)</strong> 사용을 권장합니다. 해외 발급 체크카드, 애플페이 등은 결제가 거절되는 경우가 많으니 유의해 주시기 바랍니다.
           </div>
         </div>
 
@@ -807,14 +812,14 @@
               <div class="step-num bg-blue">2</div>
               <div style="font-size: 14.5px;" data-i18n="ret_t1_step2">바닥의 <strong>파란색 라인</strong>을 따라 단기주차장 진입</div>
             </div>
-            <img src="./img/image_9921bc.png" alt="파란색 라인 진입" class="info-img">
+            <img src="./img/image_9921bc.png" alt="파란색 라인 진입" class="info-img" loading="lazy">
           </div>
           <div class="step-item border-blue" style="padding: 24px;">
             <div class="step-header">
               <div class="step-num bg-blue">3</div>
               <div style="font-size: 14.5px;" data-i18n="ret_t1_step3"><strong>업무용/Staff only</strong> (우측 첫번째) 진입</div>
             </div>
-            <img src="./img/image_9921d7.png" alt="업무용 진입" class="info-img">
+            <img src="./img/image_9921d7.png" alt="업무용 진입" class="info-img" loading="lazy">
           </div>
           <div class="step-item" style="border: 2px solid #3b82f6; background: #eff6ff; padding: 24px; box-shadow: 0 10px 30px rgba(59, 130, 246, 0.1);">
             <div class="step-header align-top">
@@ -831,7 +836,7 @@
                 <a href="tel:+82-32-743-8000" style="display: inline-block; color: #1d4ed8; text-decoration: none; font-weight: 800; font-size: 14px; margin-top: 6px;" data-i18n="ret_call_t1">📞 전화: 032-743-8000 (내선 3번)</a>
               </div>
             </div>
-            <img src="./img/image_9921de.png" alt="H35 도착" class="info-img" style="margin-top: 16px;">
+            <img src="./img/image_9921de.png" alt="H35 도착" class="info-img" loading="lazy" style="margin-top: 16px;">
           </div>
         </div>
       </div>
@@ -883,21 +888,21 @@
               <div class="step-num bg-red">2</div>
               <div style="font-size: 14.5px;" data-i18n="ret_t2_step2">단기 주차장(승용차 전용) 진입</div>
             </div>
-            <img src="./img/edited-image.jpg" alt="T2 단기주차장 진입" class="info-img">
+            <img src="./img/edited-image.jpg" alt="T2 단기주차장 진입" class="info-img" loading="lazy">
           </div>
           <div class="step-item border-red" style="padding: 24px;">
             <div class="step-header">
               <div class="step-num bg-red">3</div>
               <div style="font-size: 14.5px;" data-i18n="ret_t2_step3">주차대행/렌터카 진입 <strong>파란색 라인</strong> 따라가기</div>
             </div>
-            <img src="./img/edited-image_2.jpg" alt="파란색 라인 따라가기" class="info-img">
+            <img src="./img/edited-image_2.jpg" alt="파란색 라인 따라가기" class="info-img" loading="lazy">
           </div>
           <div class="step-item border-red" style="padding: 24px;">
             <div class="step-header">
               <div class="step-num bg-red">4</div>
               <div style="font-size: 14.5px;" data-i18n="ret_t2_step4"><strong>지하 1층</strong> 주차장 진입 후 좌회전</div>
             </div>
-            <img src="./img/edited-image_3.jpg" alt="지하 1층 좌회전" class="info-img">
+            <img src="./img/edited-image_3.jpg" alt="지하 1층 좌회전" class="info-img" loading="lazy">
           </div>
           <div class="step-item" style="border: 2px solid #ed1c24; background: #fffafa; padding: 24px; box-shadow: 0 10px 30px rgba(239, 68, 68, 0.1);">
             <div class="step-header align-top">
@@ -914,7 +919,7 @@
                 <a href="tel:+82-32-743-8000" style="display: inline-block; color: #b91c1c; text-decoration: none; font-weight: 800; font-size: 14px; margin-top: 6px;" data-i18n="ret_call_t2">📞 전화: 032-743-8000 (내선 4번)</a>
               </div>
             </div>
-            <img src="./img/edited-image_4.jpg" alt="B1-119 도착" class="info-img" style="margin-top: 16px;">
+            <img src="./img/edited-image_4.jpg" alt="B1-119 도착" class="info-img" loading="lazy" style="margin-top: 16px;">
           </div>
         </div>
       </div>
@@ -1061,7 +1066,7 @@
               <div class="step-item" style="padding: 20px 24px;"><div class="step-header" style="margin:0;"><div class="step-num bg-blue">4</div><div style="font-size: 14.5px;" data-i18n="key_t1_st_4">H35 도착 후 차량 픽업</div></div></div>
               <div class="step-item" style="padding: 20px 24px;"><div class="step-header" style="margin:0;"><div class="step-num bg-blue">5</div><div style="font-size: 14.5px;" data-i18n="key_t1_st_5">가장 오른쪽 게이트로 출차</div></div></div>
             </div>
-            <img src="./img/image_fbeaa3.jpg" alt="T1 무인대여 안내문" class="info-img" style="margin-top: 24px;">
+            <img src="./img/self_pickup_t1.jpg" alt="T1 무인대여 안내문" class="info-img" loading="lazy" style="margin-top: 24px;">
           </div>
         </div>
         <!-- ================= [T1 구역 끝] ================= -->
@@ -1086,7 +1091,7 @@
             <div class="step-item" style="padding: 20px 24px;"><div class="step-header" style="margin:0;"><div class="step-num bg-red">4</div><div style="font-size: 14.5px;" data-i18n="key_st2_4">119 구역 도착 후 안내드린 문자 참고하여 차량 픽업</div></div></div>
             <div class="step-item" style="padding: 20px 24px;"><div class="step-header" style="margin:0;"><div class="step-num bg-red">5</div><div style="font-size: 14.5px;" data-i18n="key_st2_5">가장 왼쪽 게이트로 출차</div></div></div>
           </div>
-          <img src="./img/1. 2터미널 무인대여 안내문.jpg" alt="T2 셀프 픽업 안내도" class="info-img" style="margin-top: 24px;">
+          <img src="./img/self_pickup_t2.jpg" alt="T2 셀프 픽업 안내도" class="info-img" loading="lazy" style="margin-top: 24px;">
         </div>
         <!-- ================= [T2 구역 끝] ================= -->
 
@@ -1418,7 +1423,7 @@
       <div class="alert-box info">
         <h3 data-i18n="gas_req_title">💡 반납 전 주유 필수</h3>
         <p style="margin-bottom: 8px;" data-i18n="gas_req_desc">
-          추가 요금이 발생하지 않도록 연료를 가득 채워주시기 바랍니다.
+          추가 요금이 발생하지 않도록 대여하실 때와 동일한 양의 연료를 채워서 반납해 주시기 바랍니다.
         </p>
       </div>
       <div class="step-list">
@@ -1754,12 +1759,12 @@ function switchKbMainTab(tabName) {
     { id: 'casper', cat: 'compact', nameKo: '캐스퍼', thumb: './img/thumb_casper.png', images: ['./img/trunk_casper_1.png'], capacity: { carrier: '• 20" 2개', golf: '• 골프백 1개 + 보스턴백 1개' } },
     { id: 'k3', cat: 'compact', nameKo: 'K3', thumb: './img/thumb_k3.png', images: ['./img/trunk_k3_1.png'], capacity: { carrier: '• 20" 7개<br>• 20" 2개 + 26" 1개 + 28" 1개', golf: '• 골프백 3개 + 보스턴백 1개<br>• 골프백 2개 + 보스턴백 2개 + 20" 2개' } },
     { id: 'avante', cat: 'compact', nameKo: '아반떼', thumb: './img/thumb_avante.png', images: ['./img/trunk_avante_1.png'], capacity: { carrier: '• 20" 6개<br>• 20" 1개 + 26" 1개 + 28" 1개', golf: '• 골프백 2개 + 보스턴백 2개<br>• 골프백 2개 + 보스턴백 2개 + 20" 1개' } },
-    { id: 'prius', cat: 'compact', nameKo: 'Prius', thumb: './img/thumb_prius.png', images: ['./img/trunk_prius_1.png'], capacity: { carrier: '• 20" 3개<br>• 20" 1개 + 26" 1개', golf: '• 적재 불가<br><span style="font-size: 12.5px; color: #666;">(※ 사선 적재 시 드라이버 파손 우려 있음)</span>' } },
+    { id: 'prius', cat: 'compact', nameKo: '프리우스', thumb: './img/thumb_prius.png', images: ['./img/trunk_prius_1.png'], capacity: { carrier: '• 20" 3개<br>• 20" 1개 + 26" 1개', golf: '• 적재 불가<br><span style="font-size: 12.5px; color: #666;">(※ 사선 적재 시 드라이버 파손 우려 있음)</span>' } },
 
     { id: 'k5', cat: 'sedan', nameKo: 'K5', thumb: './img/thumb_k5.png', images: ['./img/trunk_k5_1.png'], capacity: { carrier: '• 20" 7개<br>• 20" 3개 + 26" 2개<br>• 20" 1개 + 26" 2개 + 28" 1개<br>• 28" 2개', golf: '• 골프백 3개 + 보스턴백 3개<br>• 골프백 2개 + 보스턴백 2개 + 20" 2개' } },
     { id: 'sonata', cat: 'sedan', nameKo: '쏘나타', thumb: './img/thumb_sonata.png', images: ['./img/trunk_sonata_1.png'], capacity: { carrier: '• 20" 7개<br>• 20" 1개 + 26" 2개<br>• 28" 2개<br>• 20" 1개 + 26" 2개 + 28" 1개', golf: '• 골프백 3개 + 보스턴백 3개' } },
     { id: 'k8', cat: 'sedan', nameKo: 'K8', thumb: './img/thumb_k8.png', images: ['./img/trunk_k8_1.png'], capacity: { carrier: '• 20" 8개<br>• 20" 1개 + 28" 2개<br>• 20" 2개 + 26" 3개', golf: '• 골프백 4개 + 보스턴백 4개<br>• 골프백 2개 + 보스턴백 2개 + 26" 1개 + 20" 2개' } },
-    { id: 'camry', cat: 'sedan', nameKo: 'Camry', thumb: './img/thumb_camry.png', images: ['./img/trunk_camry_1.png'], capacity: { carrier: '• 20" 5개<br>• 20" 1개 + 26" 1개<br>• 28" 1개', golf: '• 골프백 3개 + 보스턴백 1개<br>• 골프백 1개 + 보스턴백 1개 + 20" 1개' } },
+    { id: 'camry', cat: 'sedan', nameKo: '캠리', thumb: './img/thumb_camry.png', images: ['./img/trunk_camry_1.png'], capacity: { carrier: '• 20" 5개<br>• 20" 1개 + 26" 1개<br>• 28" 1개', golf: '• 골프백 3개 + 보스턴백 1개<br>• 골프백 1개 + 보스턴백 1개 + 20" 1개' } },
     { id: 'grandeur', cat: 'sedan', nameKo: '그랜저', thumb: './img/thumb_grandeur.png', images: ['./img/trunk_grandeur_1.png'], capacity: { carrier: '• 20" 7개<br>• 20" 2개 + 26" 2개<br>• 20" 3개 + 28" 1개<br>• 28" 2개', golf: '• 골프백 3개 + 보스턴백 3개<br>• 골프백 2개 + 보스턴백 2개 + 20" 2개' } },
     { id: 'g80', cat: 'sedan', nameKo: 'G80', thumb: './img/thumb_g80.png', images: ['./img/trunk_g80_1.png'], capacity: { carrier: '• 20" 5개<br>• 20" 1개 + 28" 1개<br>• 20" 1개 + 26" 1개', golf: '• 골프백 2개 + 보스턴백 2개<br>• 골프백 1개 + 보스턴백 1개 + 20" 2개' } },
     { id: 'g90', cat: 'sedan', nameKo: 'G90', thumb: './img/thumb_g90.png', images: ['./img/trunk_g90_1.png'], capacity: { carrier: '• 20" 6개<br>• 20" 2개 + 26" 2개<br>• 20" 1개 + 26" 1개 + 28" 1개', golf: '• 골프백 3개 + 보스턴백 3개<br>• 골프백 2개 + 보스턴백 2개 + 20" 2개' } },
@@ -1771,9 +1776,9 @@ function switchKbMainTab(tabName) {
     { id: 'sorento', cat: 'suv', nameKo: '쏘렌토', thumb: './img/thumb_sorento.png', images: ['./img/trunk_sorento_1.png', './img/trunk_sorento_2.png'], capacity: { carrier: '• 20" 6개<br>• 20" 2개 + 26" 2개 + 28" 1개', golf: '• 골프백 4개 + 보스턴백 4개<br>• 골프백 2개 + 보스턴백 2개 + 20" 2개' }, warningKo: '※ 4번 좌석은 크기가 작아 성인 탑승이 어려워요.' },
     { id: 'torres', cat: 'suv', nameKo: '토레스', thumb: './img/thumb_torres.png', images: ['./img/trunk_torres_1.png'], capacity: { carrier: '• 20" 7개<br>• 26" 2개 + 28" 2개', golf: '• 골프백 4개 + 보스턴백 4개<br>• 골프백 2개 + 보스턴백 2개 + 20" 2개 + 26" 2개' } },
     { id: 'koleos', cat: 'suv', nameKo: '콜레오스', thumb: './img/thumb_koleos.png', images: ['./img/trunk_koleos_1.png'], capacity: { carrier: '• 20" 7개<br>• 26" 2개 + 28" 2개', golf: '• 골프백 4개 + 보스턴백 4개<br>• 골프백 2개 + 보스턴백 2개 + 20" 3개 + 26" 1개' } },
-    { id: 'rav4', cat: 'suv', nameKo: 'Rav4', thumb: './img/thumb_rav4.png', images: ['./img/trunk_rav4_1.png'], capacity: { carrier: '• 20" 4개<br>• 26" 1개 + 28" 1개<br>• 20" 1개 + 26" 1개 + 28" 1개', golf: '• 골프백 3개 + 보스턴백 1개<br>• 골프백 1개 + 보스턴백 1개 + 20" 1개' } },
+    { id: 'rav4', cat: 'suv', nameKo: 'RAV4', thumb: './img/thumb_rav4.png', images: ['./img/trunk_rav4_1.png'], capacity: { carrier: '• 20" 4개<br>• 26" 1개 + 28" 1개<br>• 20" 1개 + 26" 1개 + 28" 1개', golf: '• 골프백 3개 + 보스턴백 1개<br>• 골프백 1개 + 보스턴백 1개 + 20" 1개' } },
     { id: 'santafe', cat: 'suv', nameKo: '싼타페', thumb: './img/thumb_santafe.png', images: ['./img/trunk_santafe_1.png', './img/trunk_santafe_2.png'], capacity: { carrier: '• 20" 7개<br>• 26" 2개 + 28" 3개', golf: '• 골프백 4개 + 보스턴백 5개<br>• 골프백 2개 + 보스턴백 2개 + 20" 4개' }, warningKo: '※ 4번 좌석은 크기가 작아 성인 탑승이 어려워요.' },
-    { id: 'palisade', cat: 'suv', nameKo: '펠리세이드', thumb: './img/thumb_palisade.png', images: ['./img/trunk_palisade_1.png', './img/trunk_palisade_2.png', './img/trunk_palisade_3.png'], capacity: { carrier: '• 20" 4개<br>• 20" 3개 + 26" 1개<br>• 28" 1개', golf: '• 골프백 2개 + 보스턴백 2개' }, warningKo: '※ 5,6,7번 좌석은 크기가 작아 성인 탑승이 어려워요.' },
+    { id: 'palisade', cat: 'suv', nameKo: '팰리세이드', thumb: './img/thumb_palisade.png', images: ['./img/trunk_palisade_1.png', './img/trunk_palisade_2.png', './img/trunk_palisade_3.png'], capacity: { carrier: '• 20" 4개<br>• 20" 3개 + 26" 1개<br>• 28" 1개', golf: '• 골프백 2개 + 보스턴백 2개' }, warningKo: '※ 5,6,7번 좌석은 크기가 작아 성인 탑승이 어려워요.' },
     { id: 'gv80', cat: 'suv', nameKo: 'GV80', thumb: './img/thumb_gv80.png', images: ['./img/trunk_gv80_1.png', './img/trunk_gv80_2.png'], capacity: { carrier: '• 20" 7개<br>• 26" 5개<br>• 20" 4개 + 26" 2개 + 28" 1개', golf: '• 골프백 3개 + 보스턴백 4개' }, warningKo: '※ 4번 좌석은 크기가 작아 성인 탑승이 어려워요.' },
     
     { 
@@ -1817,7 +1822,7 @@ function switchKbMainTab(tabName) {
 
       const html = `
         <div class="car-list-item">
-          <img src="${car.thumb}" class="car-thumb" alt="${localizedName}" onerror="this.src='https://placehold.co/120x80/f8fafc/94a3b8?text=No+Img'">
+          <img src="${car.thumb}" class="car-thumb" loading="lazy" alt="${localizedName}" onerror="this.src='https://placehold.co/120x80/f8fafc/94a3b8?text=No+Img'">
           <div class="car-info">
             <span class="car-info-cat">${car.cat.toUpperCase()}</span>
             <span class="car-info-name">${localizedName}</span>
