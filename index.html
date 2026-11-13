@@ -1672,7 +1672,10 @@ function openTerminalLink() {
   });
 
   window.addEventListener('DOMContentLoaded', () => {
-    const savedLang = localStorage.getItem('guideLang') || 'ko';
+    // 링크에 ?lang=en 처럼 언어가 지정되어 있으면 그 언어로 시작 (ko, en, ja, zh)
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    const validLangs = ['ko', 'en', 'ja', 'zh'];
+    const savedLang = validLangs.includes(urlLang) ? urlLang : (localStorage.getItem('guideLang') || 'ko');
     document.getElementById('langDropdown').value = savedLang;
     changeLanguage(savedLang);
     
