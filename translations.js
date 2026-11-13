@@ -74,6 +74,8 @@ const guideTranslations = {
   "pkg_li_1": { en: "No need to refuel before returning", zh: "還車時無需加滿油", ja: "返却時の給油不要" },
   "pkg_li_2": { en: "Included Hi-Pass card for convenient toll payments", zh: "內附 Hi-Pass 卡，輕鬆支付高速公路過路費", ja: "ハイパスカード付きで便利な料金所利用" },
   "pkg_li_3": { en: "Reliable Pocket Wi-Fi throughout their trip", zh: "旅途中穩定的隨身 Wi-Fi", ja: "旅行中快適なポケットWi-Fi" },
+  "pkg_li_4": { en: "Free phone charging cable rental", zh: "免費租借手機充電線", ja: "スマホ充電ケーブル無料貸出" },
+  "pkg_img_note": { en: "※ Prices in the image are for compact & midsize vehicles. For full-size vehicles & SUVs: Package I 120,000 KRW / Package II 130,000 KRW.", zh: "※ 圖片價格為小型・中型車標準。準大型車及以上・SUV：方案 I 120,000韓元 / 方案 II 130,000韓元。", ja: "※ 画像の価格は小型・中型車の料金です。準大型車以上・SUV：パッケージ I 120,000ウォン / パッケージ II 130,000ウォン。" },
   "pkg_compact": { en: "🚗 Compact & Midsize Vehicles", zh: "🚗 小型・中型車", ja: "🚗 小型・中型車" },
   "pkg_compact_p1_title": { en: "Package I : KRW 100,000", zh: "Package I : 100,000韓元", ja: "Package I : 100,000ウォン" },
   "pkg_compact_p1_desc": { en: "- Fuel included<br>- Hi-Pass (ETC) card preloaded with KRW 30,000", zh: "- 包含燃油<br>- 內含 30,000 韓元的 Hi-Pass 預付卡", ja: "- 燃料込み<br>- ハイパス3万ウォン分チャージ済みカード" },
