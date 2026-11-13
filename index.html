@@ -1676,6 +1676,13 @@ function openTerminalLink() {
     const urlLang = new URLSearchParams(window.location.search).get('lang');
     const validLangs = ['ko', 'en', 'ja', 'zh'];
     const savedLang = validLangs.includes(urlLang) ? urlLang : (localStorage.getItem('guideLang') || 'ko');
+    // 주소창에서 ?lang= 부분은 지워서 깔끔하게 표시
+    if (urlLang) {
+      const params = new URLSearchParams(window.location.search);
+      params.delete('lang');
+      const rest = params.toString();
+      window.history.replaceState(null, '', window.location.pathname + (rest ? '?' + rest : '') + window.location.hash);
+    }
     document.getElementById('langDropdown').value = savedLang;
     changeLanguage(savedLang);
     
