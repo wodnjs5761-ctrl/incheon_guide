@@ -45,7 +45,7 @@ const guideTranslations = {
   "menu_cargo_desc": { en: "Trunk capacity & Folding guide", zh: "確認各車型行李容量及倒平規定", ja: "各車種の荷物容量とシートアレンジ規定" },
   "menu_ins_title": { en: "Insurance & SOS", zh: "保險與緊急救援", ja: "保険と緊急連絡先 (SOS)" },
   "menu_ins_desc": { en: "What to do in an accident", zh: "發生事故時的處理與理賠上限", ja: "事故対応と補償限度額について" },
-  "menu_pkg_title": { en: "All-Inclusive Package", zh: "全包式專案 (Package)", ja: "オールインクルーシブパッケージ" },
+  "menu_pkg_title": { en: "All-Inclusive Package", zh: "全包式專案", ja: "オールインクルーシブパッケージ" },
   "menu_pkg_desc": { en: "Fuel, Hi-Pass & Wi-Fi included", zh: "包含燃油, Hi-Pass, 隨身 Wi-Fi", ja: "燃料込み, ハイパス, ポケットWi-Fi" },
   
   "menu_drv_title": { en: "Driving in Korea", zh: "韓國道路駕駛指南", ja: "韓国道路運転ガイド" },
@@ -77,14 +77,14 @@ const guideTranslations = {
   "pkg_li_4": { en: "Free phone charging cable rental", zh: "免費租借手機充電線", ja: "スマホ充電ケーブル無料貸出" },
   "pkg_img_note": { en: "※ Prices in the image are for compact & midsize vehicles. For full-size vehicles & SUVs: Package I 120,000 KRW / Package II 130,000 KRW.", zh: "※ 圖片價格為小型・中型車標準。準大型車及以上・SUV：方案 I 120,000韓元 / 方案 II 130,000韓元。", ja: "※ 画像の価格は小型・中型車の料金です。準大型車以上・SUV：パッケージ I 120,000ウォン / パッケージ II 130,000ウォン。" },
   "pkg_compact": { en: "🚗 Compact & Midsize Vehicles", zh: "🚗 小型・中型車", ja: "🚗 小型・中型車" },
-  "pkg_compact_p1_title": { en: "Package I : KRW 100,000", zh: "Package I : 100,000韓元", ja: "Package I : 100,000ウォン" },
+  "pkg_compact_p1_title": { en: "Package I : KRW 100,000", zh: "方案 I : 100,000韓元", ja: "パッケージ I : 100,000ウォン" },
   "pkg_compact_p1_desc": { en: "- Fuel included<br>- Hi-Pass (ETC) card preloaded with KRW 30,000", zh: "- 包含燃油<br>- 內含 30,000 韓元的 Hi-Pass 預付卡", ja: "- 燃料込み<br>- ハイパス3万ウォン分チャージ済みカード" },
-  "pkg_compact_p2_title": { en: "Package II : KRW 110,000", zh: "Package II : 110,000韓元", ja: "Package II : 110,000ウォン" },
+  "pkg_compact_p2_title": { en: "Package II : KRW 110,000", zh: "方案 II : 110,000韓元", ja: "パッケージ II : 110,000ウォン" },
   "pkg_compact_p2_desc": { en: "- Fuel included<br>- Hi-Pass (ETC) card preloaded with KRW 30,000<br>- Pocket Wi-Fi (5 GB per day)", zh: "- 包含燃油<br>- 內含 30,000 韓元的 Hi-Pass 預付卡<br>- 隨身 Wi-Fi (每日 5GB)", ja: "- 燃料込み<br>- ハイパス3万ウォン分チャージ済みカード<br>- ポケットWi-Fi (1日 5GB)" },
   "pkg_midsize": { en: "🚙 Full-size Vehicles & SUVs", zh: "🚙 準大型車及以上・SUV", ja: "🚙 準大型車以上・SUV" },
   "pkg_midsize_note": { en: "* The package price is higher because it includes a fuel allowance of KRW 85,000.", zh: "* 此專案價格較高，因其包含價值 85,000 韓元的燃油額度。", ja: "* 85,000ウォン相当の燃料が含まれるため、パッケージ価格が異なります。" },
-  "pkg_midsize_p1_title": { en: "Package I : KRW 120,000", zh: "Package I : 120,000韓元", ja: "Package I : 120,000ウォン" },
-  "pkg_midsize_p2_title": { en: "Package II : KRW 130,000", zh: "Package II : 130,000韓元", ja: "Package II : 130,000ウォン" },
+  "pkg_midsize_p1_title": { en: "Package I : KRW 120,000", zh: "方案 I : 120,000韓元", ja: "パッケージ I : 120,000ウォン" },
+  "pkg_midsize_p2_title": { en: "Package II : KRW 130,000", zh: "方案 II : 130,000韓元", ja: "パッケージ II : 130,000ウォン" },
   "pkg_footer": { en: "If you would like to add this package to your reservation, please contact our branch.", zh: "如果您想在預約中加購此專案，請聯繫我們的分店。", ja: "このパッケージを予約に追加する場合は、店舗までご連絡ください。" },
 
   // ================= 대여조건 (Conditions) =================
