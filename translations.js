@@ -182,9 +182,6 @@ const guideTranslations = {
   "key_page_title": { en: "🔑 Contactless Rent/Return", zh: "🔑 零接觸取還車", ja: "🔑 非対面貸出・返却" },
   "key_req_title": { en: "✅ Mandatory Pre-requisites", zh: "✅ 取車必備手續", ja: "✅ セルフピックアップ 必須手続き" },
   "key_req_desc": { en: "The following 3 steps must be completed prior to your self pick-up:", zh: "為了順利取車，請務必先完成以下 3 個步驟：", ja: "スムーズな貸出のため、以下の3点がすべて完了している必要があります。" },
-  "key_t1_self_loc": { en: "<strong>Unmanned Box Location</strong>", zh: "<strong>無人鑰匙櫃位置</strong>", ja: "<strong>無人保管箱の位置</strong>" },
-  "key_t1_self_desc": { en: "Terminal 1 (T1) Short-term Parking (Designated Area)", zh: "第1航廈 (T1) 短期停車場 (您被指定的區域)", ja: "第1ターミナル (T1) 短期駐車場 (案内されたエリア)" },
-  "key_self_guide_desc": { en: "Please proceed to the parking area provided via messenger. You will find the car key either inside the vehicle or in the designated unmanned box.", zh: "請前往透過通訊軟體通知您的停車區域。您可以在車內或指定的無人鑰匙櫃中找到車鑰匙。", ja: "メッセンジャーで案内された駐車エリアに移動し、車内または指定の無人保管箱から鍵を受け取ってください。" },
   "key_req_1": { en: "Pre-payment", zh: "預先付款", ja: "事前決済" },
   "key_req_2": { en: "Driver's License verification", zh: "駕照驗證", ja: "免許証の確認" },
   "key_req_3": { en: "Sign Contract & Consent Form", zh: "合約及信用卡資料收集同意書簽名", ja: "契約書およびカード情報収集同意書の署名" },
@@ -203,15 +200,6 @@ const guideTranslations = {
   
   "key_tab_t1": { en: "✈️ T1", zh: "✈️ T1", ja: "✈️ T1" },
   "key_tab_t2": { en: "✈️ T2", zh: "✈️ T2", ja: "✈️ T2" },
-  "key_loc": { en: "<strong>Location:</strong> T1 Short-term Parking", zh: "<strong>位置：</strong> T1 短期停車場", ja: "<strong>位置：</strong> T1 短期駐車場" },
-  "key_photo": { en: "[ T1 photo ]", zh: "[ T1 鑰匙櫃照片 ]", ja: "[ T1 キーボックス写真 ]" },
-  "key_how_smart": { en: "📱 How to use Smart Keybox", zh: "📱 智能鑰匙櫃使用方法", ja: "📱 スマートキーボックスの利用方法" },
-  "key_st1_1": { en: "Advance Reservation", zh: "事前預約", ja: "事前予約" },
-  "key_st1_2": { en: "Visit Keybox Location", zh: "抵達鑰匙櫃", ja: "店舗(保管箱)訪問" },
-  "key_st1_3": { en: "Select Rent/Return", zh: "選擇 取車/還車", ja: "貸出/返却を選択" },
-  "key_st1_4": { en: "Identity Verification (SMS)", zh: "身分驗證 (SMS)", ja: "本人認証 (SMS)" },
-  "key_st1_5": { en: "Select Contract No.", zh: "選擇合約號碼", ja: "契約番号を選択" },
-  "key_st1_6": { en: "Retrieve/Return Car Key", zh: "領取/歸還 車鑰匙", ja: "車の鍵の受取/保管" },
 
   "key_t2_loc_title": { en: "<strong>Pick-up Location</strong>", zh: "<strong>取車地點</strong>", ja: "<strong>ピックアップ場所</strong>" },
   "key_t2_loc_desc": { en: "Incheon Airport T2, Short-term Parking lot B1 119", zh: "仁川機場 T2 短期停車場 B1 樓層 119 區", ja: "仁川空港 T2 短期駐車場 地下1階 119エリア" },
@@ -227,7 +215,6 @@ const guideTranslations = {
   "key_issue": { en: "🚨 Experiencing issues during pick-up?", zh: "🚨 取車時遇到問題嗎？", ja: "🚨 ピックアップ時に問題が発生しましたか？" },
   "key_issue_desc": { en: "If the keybox won't open or you can't find the car, please contact us immediately via messenger. Our staff will assist you in real-time.", zh: "若鑰匙櫃無法開啟或找不到車，請立即透過通訊軟體聯繫我們。工作人員將即時為您協助。", ja: "キーボックスが開かない、または車両が見つからない場合は、すぐにメッセンジャーでご連絡ください。スタッフがリアルタイムでサポートいたします。" },
 
-  "ret_contactless": { en: "🌙 Contactless Return", zh: "🌙 零接觸還車", ja: "🌙 非対面返却" },
   "ret_cont_desc": {en: "Process for returning vehicles <strong>outside operating hours</strong> or returning a car <strong>rented from another branch</strong>.", zh: "適用於<strong>非營業時間</strong>還車，或是將<strong>其他分店租借的車輛</strong>甲租乙還至仁川機場。", ja: "<strong>営業時間外</strong>の早朝返却、または<strong>他店舗で借りた車</strong>を仁川空港に乗り捨て返却する際の手続きです。" },
   "ret_cont_1": { en: "🚙 Rented from Incheon Airport Branch", zh: "🚙 從仁川機場分店租借的車輛", ja: "🚙 仁川空港営業所でレンタルした車両" },
   "ret_cont_t1_title": { en: "[T1 Return]", zh: "[T1 還車]", ja: "[T1 返却]" },

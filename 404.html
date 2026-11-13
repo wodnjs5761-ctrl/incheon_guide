@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>롯데렌터카 인천공항 스마트 가이드</title>
+  <script>
+    // 잘못된 주소로 들어오면 스마트 가이드로 이동 (예: /EN → /en, /abc → 홈)
+    (function () {
+      var path = window.location.pathname.replace(/\/+$/, '').toLowerCase();
+      var known = ['/en', '/ja', '/zh', '/qr'];
+      var target = known.indexOf(path) > -1 ? path + '/' : '/';
+      window.location.replace(target + window.location.search + window.location.hash);
+    })();
+  </script>
+</head>
+<body>
+  <p><a href="/">LOTTE Rent-a-car Incheon Airport Smart Guide</a></p>
+</body>
+</html>
