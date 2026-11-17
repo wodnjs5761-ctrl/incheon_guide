@@ -228,9 +228,9 @@ const guideTranslations = {
   // ================= 사고 대처 및 보험 (Insurance) =================
   "ins_page_title": { en: "🚨 Accident & Insurance", zh: "🚨 事故處理與保險", ja: "🚨 事故対応と保険" },
   "ins_cc_title": { en: "📞 Customer Center (24/7)", zh: "📞 客服中心 (24小時)", ja: "📞 カスタマーセンター (24時間)" },
-  "ins_cc_eng": { en: "+82-1588-1230 (Press 8)", zh: "+82-1588-1230 (按 8)", ja: "+82-1588-1230 (ガイダンス 8番)" },
+  "ins_cc_eng": { en: "1588-1230 (Press 8)", zh: "1588-1230 (按 8)", ja: "1588-1230 (ガイダンス 8番)" },
   "ins_cc_eng_desc": { en: "English Customer Service (Weekdays 09:00 ~ 18:00 KST)", zh: "英語專線服務 (平日 韓國時間 09:00 ~ 18:00)", ja: "英語対応サービス (平日 韓国時間 09:00 ~ 18:00)" },
-  "ins_cc_1": { en: "+82-1588-1230 (Press 1)", zh: "+82-1588-1230 (按 1)", ja: "+82-1588-1230 (ガイダンス 1番)" },
+  "ins_cc_1": { en: "1588-1230 (Press 1)", zh: "1588-1230 (按 1)", ja: "1588-1230 (ガイダンス 1番)" },
   "ins_cc_1_desc": { en: "Accident reporting & Roadside assistance (flat tire, battery, towing)", zh: "事故通報及道路救援 (爆胎, 電瓶沒電, 拖吊)", ja: "事故受付およびロードサービス (パンク, バッテリー上がり, 牽引)" },
   "ins_acc_lbl": { en: "Accident", zh: "發生事故", ja: "事故発生" },
   "ins_call_asap": { en: "Call ASAP", zh: "立即聯絡", ja: "すぐ連絡" },
@@ -241,7 +241,7 @@ const guideTranslations = {
   "ins_st2_title": { en: "Take Photos & Call Police", zh: "拍攝現場並報警", ja: "現場撮影および警察へ通報" },
   "ins_st2_desc": { en: "Take photos of the scene and damages. Call <strong>112 (Police)</strong> if there are injuries or disputes.", zh: "從多個角度拍攝事故現場及損壞部位。若有人員傷亡或糾紛，請撥打 <strong>112 (警察)</strong>。", ja: "多角的に事故現場と破損部位の写真を撮ってください。人身被害やトラブルがある場合は <strong>112 (警察)</strong> に通報してください。" },
   "ins_st3_title": { en: "Report to Lotte Rent-a-car", zh: "務必通報租車客服中心", ja: "レンタカー コールセンターへ必須報告" },
-  "ins_st3_desc": { en: "Even for minor scratches, you MUST report the accident to our call center (+82-1588-1230) immediately for insurance coverage.", zh: "即使是輕微擦傷，也必須立即撥打客服中心(+82-1588-1230)通報，否則將無法申請保險理賠。", ja: "軽微な事故であっても、すぐにコールセンター(+82-1588-1230)へ報告しないと保険処理ができません。" },
+  "ins_st3_desc": { en: "Even for minor scratches, you MUST report the accident to our call center (1588-1230) immediately for insurance coverage.", zh: "即使是輕微擦傷，也必須立即撥打客服中心(1588-1230)通報，否則將無法申請保險理賠。", ja: "軽微な事故であっても、すぐにコールセンター(1588-1230)へ報告しないと保険処理ができません。" },
   
   "ins_cov_title": { en: "🛡️ Insurance Coverage Limits", zh: "🛡️ 基本保險理賠上限", ja: "🛡️ 基本保険の補償限度額" },
   "ins_cov_1": { en: "Bodily Injury (Others)", zh: "對人 (造成他人受傷)", ja: "対人 (他人を怪我させた場合)" },
